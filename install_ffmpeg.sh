@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd /usr/local/bin
-mkdir ffmpeg
+mkdir -p ffmpeg
 cd ffmpeg
 curl https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz -o ffmpeg-release-amd64-static.tar.xz
 tar -xf ffmpeg-release-amd64-static.tar.xz
